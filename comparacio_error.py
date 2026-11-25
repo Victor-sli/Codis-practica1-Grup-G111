@@ -1,3 +1,5 @@
+# Euler implícit
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -255,7 +257,7 @@ print("Error quadratic mitja =", error_mitja2)
 
 T_celsius = Tc + T0 * theta2 - 273.15
 
-
+# Euler explícit
 
 import numpy as np
 import matplotlib.pyplot as plt
