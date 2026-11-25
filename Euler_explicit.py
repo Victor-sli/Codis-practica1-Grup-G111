@@ -138,7 +138,7 @@ print("Temps del tractament t =", temps_segons, "s")
 
 plt.figure(figsize=(7,5))
 
-# plt.plot(x*0.02*100, T_f[0]*((0.472*(40/np.sqrt(2))**2)/0.56)-273.15, label='a = 0.51', color = 'royalblue')
+plt.plot(x*0.02*100, T_f[0]*((0.472*(40/np.sqrt(2))**2)/0.56)-273.15, label='a = 0.51', color = 'royalblue')
 plt.plot(x*0.02*100, T_f[1]*((0.472*(40/np.sqrt(2))**2)/0.56)-273.15, label='a = 0.49', color = 'orange')
 plt.plot(x*0.02*100, T_f[2]*((0.472*(40/np.sqrt(2))**2)/0.56)-273.15, label='a = 0.25', color = 'limegreen')
 
